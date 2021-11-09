@@ -87,6 +87,6 @@ function importAll(r) {
     return images;
   }
   
-const images = importAll(require.context('./sushi-icons/', false, /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../dist/sushi-icons/', false, /\.(png|jpe?g|svg)$/));
 
 export { menuPage };

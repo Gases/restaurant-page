@@ -39,15 +39,15 @@ a {
 }
 
 .home-page {
-    background-image: url('./sushi-bg-main.png');
+    background-image: url('/dist/backgrounds/sushi-bg-main.png');
 }
 
 .menu-page {
-    background-image: url('./sushi-bg-menu.png');
+    background-image: url('/dist/backgrounds/sushi-bg-menu.png');
 }
 
 .contact-page {
-    background-image: url('./sushi-bg-contact.png');
+    background-image: url('/dist/backgrounds/sushi-bg-contact.png');
 }
 
 .other-pages {
