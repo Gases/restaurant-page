@@ -1,0 +1,114 @@
+@import url(//fonts.googleapis.com/css?family=Dongle);
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Dongle';
+    background-size: 7.5%;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overscroll-behavior: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 32px;
+}
+
+h1 {
+    flex-grow: 3;
+    font-size: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home-page {
+    background-image: url('./sushi-bg-main.png');
+}
+
+.menu-page {
+    background-image: url('./sushi-bg-menu.png');
+}
+
+.contact-page {
+    background-image: url('./sushi-bg-contact.png');
+}
+
+.other-pages {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 48px;
+}
+
+.links:hover {
+    transform: scale(1.2);
+}
+
+#content {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 8px;
+    width: 1400px;
+    height: 700px;
+    background-color: rgba(128, 135, 142, 0.85);
+}
+
+.menu-container {
+    padding: 16px;
+    color: white;
+    font-size: 24px;
+    display: grid;
+    gap: 54px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border-radius: 8px;
+    width: 1400px;
+}
+
+.sushi {
+    padding: 12px;   
+    display: grid;
+    grid-template-rows: repeat(3, 80px);
+    border: 2px dashed rgb(255,255,255);
+    border-radius: 8px;
+}
+
+.sushi-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueish {
+    background-color: rgba(83, 118, 151, 0.95);
+}
+
+.greenish {
+    background-color: rgba(96, 151, 113, 0.95);
+}
+
+.redish {
+    background-color: rgba(141, 88, 70, 0.95)
+}
