@@ -30,7 +30,7 @@ const body = document.querySelector('body');
     const contentDiv = document.createElement('div');
     contentDiv.id = 'content';
     body.appendChild(contentDiv);
-})()
+})();
 
 const content = document.querySelector('#content');
 const header = document.querySelector('header');
@@ -78,6 +78,7 @@ const clearContent = () => {
 }
 
 pageContent();
+
 
 export { content, body, div, header };
 

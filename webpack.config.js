@@ -24,9 +24,6 @@ module.exports = {
             {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
-                generator: {
-                    filename: 'stylesheets/[name][ext][query]'
-                }
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -34,10 +31,6 @@ module.exports = {
                 generator: {
                     filename: 'images/[name][ext][query]'
                 }
-            },
-            {
-                test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                type: 'asset/resource',
             },
         ],
     },

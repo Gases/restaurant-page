@@ -38,6 +38,27 @@ a {
     color: white;
 }
 
+textarea {
+    text-align: justify;
+    font-family: inherit;
+    font-size: 24px;
+}
+
+button {
+    padding: 4px 16px;
+    font-family: inherit;
+    font-size: 24px;
+    background-color:rgb(245, 135, 105);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 .home-page {
     background-image: url('./backgrounds/sushi-bg-main.png');
 }
@@ -115,6 +136,12 @@ a {
     background-image: url('./sushi-images/image-3.png');
 }
 
+#image-4 {
+    height: 600px;
+    width: 600px;
+    background-image: url('./sushi-images/image-4.png');
+}
+
 .menu-container {
     padding: 16px;
     color: white;
@@ -125,6 +152,11 @@ a {
     grid-template-rows: repeat(2, 1fr);
     border-radius: 8px;
     width: 1400px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .sushi {
