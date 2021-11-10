@@ -39,15 +39,15 @@ a {
 }
 
 .home-page {
-    background-image: url('/dist/backgrounds/sushi-bg-main.png');
+    background-image: url('./backgrounds/sushi-bg-main.png');
 }
 
 .menu-page {
-    background-image: url('/dist/backgrounds/sushi-bg-menu.png');
+    background-image: url('./backgrounds/sushi-bg-menu.png');
 }
 
 .contact-page {
-    background-image: url('/dist/backgrounds/sushi-bg-contact.png');
+    background-image: url('./backgrounds/sushi-bg-contact.png');
 }
 
 .other-pages {
@@ -74,6 +74,14 @@ a {
     width: 1400px;
     height: 700px;
     background-color: rgba(128, 135, 142, 0.85);
+}
+
+.sushi-images {
+    padding: 36px;
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .menu-container {

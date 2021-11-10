@@ -26,6 +26,12 @@ const body = document.querySelector('body');
     body.prepend(head);
 })();
 
+(() => {
+    const contentDiv = document.createElement('div');
+    contentDiv.id = 'content';
+    body.appendChild(contentDiv);
+})()
+
 const content = document.querySelector('#content');
 const header = document.querySelector('header');
 const home = document.querySelector('.home');

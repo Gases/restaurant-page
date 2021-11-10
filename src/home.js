@@ -10,6 +10,8 @@ const homePage = () => {
     body.className = '';
     body.classList.add('home-page');
 
+
+
     content.appendChild(div);
 }
 
